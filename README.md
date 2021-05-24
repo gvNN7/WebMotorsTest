@@ -26,4 +26,4 @@ npm run start
 
 * Website: https://github.com/gvNN7
 * Github: [@gvNN7](https://github.com/gvNN7)
-* LinkedIn: [@https:\/\/www.linkedin.com\/in\/gvNN7](https://linkedin.com/in/https:\/\/www.linkedin.com\/in\/gvNN7)
+* LinkedIn: [@gvNN7](https://linkedin.com/in/gvNN7)
