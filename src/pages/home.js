@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import styles from './home.module.scss';
 import Header from '../components/Header/header';
 import { HeaderContext } from '../components/contexts/headerContext';
