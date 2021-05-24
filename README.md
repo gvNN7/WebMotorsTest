@@ -5,7 +5,7 @@
 
 ### 🏠 [Homepage](https://github.com/gvNN7/WebMotorsTest/)
 
-### ✨ [Demo](https://angry-goodall-f1c3b8.netlify.app/)
+### ✨ [Demo](https://webmotors-test.netlify.app/)
 
 ## Install
 
