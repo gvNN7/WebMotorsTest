@@ -1,11 +1,11 @@
-# Welcome to WebMotors Test 👋
+# WebMotors Test 👋
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](#)
 
 > Create a clone of the old home page.
 
-### 🏠 [Homepage](home)
+### 🏠 [Homepage](https://github.com/gvNN7/WebMotorsTest/)
 
-### ✨ [Demo](hmoe)
+### ✨ [Demo](https://angry-goodall-f1c3b8.netlify.app/)
 
 ## Install
 
@@ -19,12 +19,6 @@ npm install
 npm run start
 ```
 
-## Run tests
-
-```sh
-npm run test
-```
-
 ## Author
 
 👤 **Giovanni Maciel**
@@ -36,7 +30,3 @@ npm run test
 ## Show your support
 
 Give a ⭐️ if this project helped you!
-
-
-***
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
