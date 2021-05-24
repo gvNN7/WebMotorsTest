@@ -15,24 +15,41 @@ function App() {
   const [carsList, setCarsList] = useState([]);
 
   useEffect(async () => {
-    await getMake().then(result => {
-      setMakeList(result);
-      setMake(result[0].id);
-    });
+    await getMakes();
     await getCars().then(result => setCarsList(result));
   }, [])
 
+  async function getMakes() {
+    await getMake().then(result => {
+      setMakeList(result);
+    });
+  }
+
   async function setMake(id) {
+    setModelId(0);
+    setVersionId(0);
+    setVersionList([]);
     setMakeId(id);
     await getModel(id).then(result => {
       setModelList(result);
-      setModel(result[0].id);
     });
   }
 
   async function setModel(id) {
     setModelId(id);
+    setVersionId(0);
+    setVersionList([]);
     await getVersion(id).then(result => setVersionList(result));
+  }
+
+  async function clearFilters() {
+    setModelList([]);
+    setModelId(0);
+    setMakeList([]);
+    setMakeId(0);
+    setVersionList([]);
+    setVersionId(0);
+    await getMakes();
   }
 
   return (
@@ -47,7 +64,8 @@ function App() {
         versionId,
         versionList,
         setVersionId,
-        carsList
+        carsList,
+        clearFilters
       }}>
       <div className={styles.mainContainer}>
         <Header/>

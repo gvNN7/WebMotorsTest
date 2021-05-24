@@ -60,15 +60,15 @@
           font-weight: 500;
         }
 
-        &:first-child {
-          border-bottom: 3px solid red;
+        // &:first-child {
+        //   border-bottom: 3px solid red;
 
-          span:nth-child(2) {
-            color: red;
-            font-size: 22px;
-            font-weight: 500;
-          }
-        }
+        //   span:nth-child(2) {
+        //     color: red;
+        //     font-size: 22px;
+        //     font-weight: 500;
+        //   }
+        // }
       }
 
       span {

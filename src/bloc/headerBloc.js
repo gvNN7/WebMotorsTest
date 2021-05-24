@@ -51,7 +51,6 @@ export async function getVersion(id) {
       await fetch(`${apiURL}/Version?ModelID=${id}`)
       .then(response => response.json())
       .then(result => {
-        console.log("RESULT", result);
         let versions = result.map((version) => {
           return {
             modelId: version.ModelID,
@@ -88,10 +87,8 @@ export async function getCars() {
             yearFab: car.YearFab,
             color: car.Color
           }
-        })
-
-        console.log("CARS:: ", cars);
-  
+        });
+          
         resolve(cars);
       })
     } catch (error) {

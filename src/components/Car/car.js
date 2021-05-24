@@ -30,8 +30,6 @@ function Car() {
       </div>
     </div>
   )
-  
-  
 }
 
 export default Car;
