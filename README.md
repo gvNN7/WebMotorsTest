@@ -1,7 +1,8 @@
 # WebMotors Test 👋
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](#)
 
-> Clone of the older WebMotors home page.
+> Clone of the older WebMotors home page. 
+> Using react hooks, the requests are asynchronous and the result is rendered in select components, they are displaying the model, make and version of the cars.
 
 ### 🏠 [Homepage](https://github.com/gvNN7/WebMotorsTest/)
 
